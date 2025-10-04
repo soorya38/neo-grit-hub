@@ -37,6 +37,12 @@ const Login = () => {
       <BrutalistCard className="w-full max-w-md">
         <h1 className="text-center mb-8">AI Interview Hub</h1>
         
+        <div className="mb-6 p-4 border-4 border-accent bg-accent/10">
+          <p className="font-bold uppercase text-sm mb-2">Mock Login Credentials:</p>
+          <p className="font-bold">Email: demo@example.com</p>
+          <p className="font-bold">Password: demo123</p>
+        </div>
+        
         <form onSubmit={handleLogin} className="space-y-6">
           <div>
             <label className="block text-sm font-bold mb-2 uppercase">Email</label>
