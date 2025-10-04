@@ -11,8 +11,9 @@ const BrutalistInput = forwardRef<HTMLInputElement, BrutalistInputProps>(
       <input
         ref={ref}
         className={cn(
-          'w-full px-4 py-3 border-2 bg-input text-foreground font-medium',
+          'w-full px-4 py-3 border-2 bg-input text-primary font-medium',
           'focus:border-accent focus:outline-none focus:ring-0',
+          'placeholder:text-muted-foreground',
           error && 'border-destructive',
           !error && 'border-border',
           className
